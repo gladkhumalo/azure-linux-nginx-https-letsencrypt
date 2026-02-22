@@ -36,12 +36,14 @@ The goal of this project was to simulate a real-world cloud administrator task: 
   - 80 (HTTP)
   - 443 (HTTPS)
     
-Deployment Complete
-
 <p align="left">
   <img src="assets/Deployment Complete.jpg" width="700">
 </p>
 
-Assign a public DNS name:
+
+#### Assign a public DNS name:
+Click on the public IP > **Configuration**
+I namedmine: **mywebserver.eastus.cloudapp.azure.com**
+
 
 
