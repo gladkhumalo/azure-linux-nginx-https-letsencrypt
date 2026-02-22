@@ -40,10 +40,16 @@ The goal of this project was to simulate a real-world cloud administrator task: 
   <img src="assets/Deployment Complete.jpg" width="700">
 </p>
 
-
+---
 #### Assign a public DNS name:
 Click on the public IP > **Configuration**
-I namedmine: **mywebserver.eastus.cloudapp.azure.com**
+I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
+<p align="left">
+  <img src="assets/dns-name-label.jpg" width="700">
+</p>
+<p align="left">
+  <img src="assets/dns-name-label-marked.jpg" width="700">
+</p>
 
 
 
