@@ -26,11 +26,18 @@ The goal of this project was to simulate a real-world cloud administrator task: 
 
 ### 1️⃣ Create Azure VM
 
-- OS: Ubuntu Server
-- Size: Standard_B1s (lab environment)
+- OS: Ubuntu Server 24.04 LTS
+- Size: Standard_D2s_v3 (lab environment)
+- Disk: 30GB, Premium SSD (locally-redundant storage)
+- VNET and IP Address: Default
+- Public IP: Yes (left to Default)
 - Open inbound ports:
   - 22 (SSH)
   - 80 (HTTP)
   - 443 (HTTPS)
+    
+![Deployment Complete](C:\Users\LENOVO T530\Pictures\Camera Roll\Deployment Complete.jpg)
 
 Assign a public DNS name:
+
+
