@@ -38,6 +38,10 @@ The goal of this project was to simulate a real-world cloud administrator task: 
     
 ![Deployment Complete](C:\Users\LENOVO T530\Pictures\Camera Roll\Deployment Complete.jpg)
 
+<p align="center">
+  <img src="assets/architecture-diagram.png" width="700">
+</p>
+
 Assign a public DNS name:
 
 
