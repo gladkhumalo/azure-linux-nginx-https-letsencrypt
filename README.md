@@ -38,7 +38,7 @@ The goal of this project was to simulate a real-world cloud administrator task: 
     
 ![Deployment Complete]("assets/Deployment Complete.jpg")
 
-<p align="center">
+<p align="left">
   <img src="assets/Deployment Complete.jpg" width="700">
 </p>
 
