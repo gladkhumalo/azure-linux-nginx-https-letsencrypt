@@ -36,7 +36,7 @@ The goal of this project was to simulate a real-world cloud administrator task: 
   - 80 (HTTP)
   - 443 (HTTPS)
     
-![Deployment Complete]("assets/Deployment Complete.jpg")
+Deployment Complete
 
 <p align="left">
   <img src="assets/Deployment Complete.jpg" width="700">
