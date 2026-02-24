@@ -30,7 +30,7 @@ The goal of this project was to simulate a real-world cloud administrator task: 
 - Size: Standard_D2s_v3 (lab environment)
 - Disk: 30GB, Premium SSD (locally-redundant storage)
 - VNET and IP Address: Default
-- Public IP: Yes (left to Default)
+- Public IP: Yes (left to Default values)
 - Open inbound ports:
   - 22 (SSH)
   - 80 (HTTP)
