@@ -24,7 +24,7 @@ The goal of this project was to simulate a real-world cloud administrator task: 
 
 ## 🚀 Deployment Steps
 
-### 1️⃣ Create Azure VM
+###  Create Azure VM
 
 - OS: Ubuntu Server 24.04 LTS
 - Size: Standard_D2s_v3 (lab environment)
@@ -51,10 +51,87 @@ I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
   <img src="assets/dns-name-label-marked.jpg" width="700">
 </p>
 
-### 1️⃣ Login 
+###  Login 
 <p align="left">
   <img src="assets/login.jpg" width="700">
 </p>
 
-#### Update & Upgrade Packages
+#### Update Packages
+```bash
+    sudo apt update && sudo apt upgrade -y
+```
+
+#### Install Nginx
+```bash
+    sudo apt install nginx
+```
+<p align="left">
+  <img src="assets/install-nginx.jpg" width="800">
+</p>
+
+
+#### Verify Nginx is serving your domain
+```bash
+    sudo nginx -t
+    sudo systemctl status nginx
+```
+status-check.jpg
+
+
+##### From your browser:
+    mywebserver.eastus.cloudapp.azure.com
+<p align="left">
+  <img src="assets/test-web-page.jpg" width="800">
+</p>
+
+#### Install Certbot
+```bash
+    sudo snap install --classic certbot
+```
+
+#### Enable certbot command
+```bash
+    sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+---
+### Get HTTPS certificate (Nginx plugin – easiest)
+```bash
+    sudo certbot --nginx
+```
+
+You’ll be asked:
+1. **Email address** → enter a real one
+2. Agree to terms → Y
+3. Choose domain →
+   Select:
+     mywebserver.eastus.cloudapp.azure.com <your-domain>
+
+4. Redirect HTTP to HTTPS → choose **Redirect**
+Certbot will:
+  * Get the certificate
+  * Modify your Nginx config
+  * Reload Nginx automatically
+---
+
+### Test HTTPS
+Open browser:
+  https://nginx-web.eastus.cloudapp.azure.com
+
+You should see:
+🔒 Secure lock
+Valid Let’s Encrypt certificate
+
+<p align="left">
+  <img src="assets/https-webtest.jpg" width="800">
+</p>
+
+
+
+
+
+
+
+
+
+
 
