@@ -53,6 +53,8 @@ I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
 
 ### 1️⃣ Login 
 <p align="left">
-  <img src="assets/dns-name-label.jpg" width="700">
+  <img src="assets/login.jpg" width="700">
 </p>
+
+#### Update & Upgrade Packages
 
