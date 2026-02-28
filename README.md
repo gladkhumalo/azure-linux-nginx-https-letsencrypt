@@ -124,7 +124,7 @@ Valid Let’s Encrypt certificate
 <p align="left">
   <img src="assets/https-webtest.jpg" width="800">
 </p>
----
+___
 
 ### 📚 Key Skills Demonstrated
 * Azure VM deployment
@@ -140,11 +140,3 @@ Valid Let’s Encrypt certificate
 * DNS must resolve publicly before certificate issuance.
 * Certbot can automatically modify Nginx configuration.
 * Azure NSG misconfiguration can block SSL validation.
-
-
-
-
-
-
-
-
