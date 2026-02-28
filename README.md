@@ -75,8 +75,6 @@ I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
     sudo nginx -t
     sudo systemctl status nginx
 ```
-status-check.jpg
-
 
 ##### From your browser:
     mywebserver.eastus.cloudapp.azure.com
@@ -124,8 +122,8 @@ Valid Let’s Encrypt certificate
 <p align="left">
   <img src="assets/https-webtest.jpg" width="800">
 </p>
-<hr>
 
+<hr>
 ### 📚 Key Skills Demonstrated
 * Azure VM deployment
 * Azure Public IP & DNS configuration
