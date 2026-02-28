@@ -126,7 +126,7 @@ Valid Let’s Encrypt certificate
 </p>
 ---
 
-###📚 Key Skills Demonstrated
+### 📚 Key Skills Demonstrated
 * Azure VM deployment
 * Azure Public IP & DNS configuration
 * Network Security Group configuration
