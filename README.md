@@ -122,8 +122,8 @@ Valid Let’s Encrypt certificate
 <p align="left">
   <img src="assets/https-webtest.jpg" width="800">
 </p>
-
 <hr>
+
 ### 📚 Key Skills Demonstrated
 * Azure VM deployment
 * Azure Public IP & DNS configuration
