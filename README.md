@@ -134,6 +134,7 @@ ___
 * Nginx configuration
 * SSL/TLS implementation
 * Certificate lifecycle management
+---
 
 ### 🎯 Lessons Learned
 * Port 80 must remain open for Let's Encrypt validation.
