@@ -124,7 +124,7 @@ Valid Let’s Encrypt certificate
 <p align="left">
   <img src="assets/https-webtest.jpg" width="800">
 </p>
-___
+<hr>
 
 ### 📚 Key Skills Demonstrated
 * Azure VM deployment
@@ -134,7 +134,7 @@ ___
 * Nginx configuration
 * SSL/TLS implementation
 * Certificate lifecycle management
----
+
 
 ### 🎯 Lessons Learned
 * Port 80 must remain open for Let's Encrypt validation.
