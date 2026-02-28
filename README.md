@@ -124,9 +124,22 @@ Valid Let’s Encrypt certificate
 <p align="left">
   <img src="assets/https-webtest.jpg" width="800">
 </p>
+---
 
+###📚 Key Skills Demonstrated
+* Azure VM deployment
+* Azure Public IP & DNS configuration
+* Network Security Group configuration
+* Linux system administration
+* Nginx configuration
+* SSL/TLS implementation
+* Certificate lifecycle management
 
-
+### 🎯 Lessons Learned
+* Port 80 must remain open for Let's Encrypt validation.
+* DNS must resolve publicly before certificate issuance.
+* Certbot can automatically modify Nginx configuration.
+* Azure NSG misconfiguration can block SSL validation.
 
 
 
