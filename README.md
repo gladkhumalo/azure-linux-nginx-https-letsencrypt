@@ -6,8 +6,6 @@ This lab demonstrates how to deploy a Linux Virtual Machine in Microsoft Azure, 
 
 The goal of this project was to simulate a real-world cloud administrator task: provisioning infrastructure, configuring a web server, and implementing HTTPS securely.
 
----
-
 
 ## 🏗 Architecture
 
@@ -20,7 +18,6 @@ The goal of this project was to simulate a real-world cloud administrator task: 
 - Nginx Web Server
 - Let's Encrypt SSL Certificate via Certbot
 
----
 
 ## 🚀 Deployment Steps
 
@@ -40,7 +37,8 @@ The goal of this project was to simulate a real-world cloud administrator task: 
   <img src="assets/Deployment Complete.jpg" width="700">
 </p>
 
----
+<br>
+
 #### Assign a public DNS name:
 Click on the public IP > **Configuration.**
 I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
@@ -50,6 +48,7 @@ I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
 <p align="left">
   <img src="assets/dns-name-label-marked.jpg" width="700">
 </p>
+___
 
 ###  Login 
 <p align="left">
@@ -58,7 +57,7 @@ I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
 
 #### Update Packages
 ```bash
-    sudo apt update && sudo apt upgrade -y
+    sudo apt update
 ```
 
 #### Install Nginx
@@ -91,7 +90,7 @@ I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
 ```bash
     sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
----
+--- <br>
 ### Get HTTPS certificate (Nginx plugin – easiest)
 ```bash
     sudo certbot --nginx
