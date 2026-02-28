@@ -48,7 +48,6 @@ I labelled mine: **mywebserver.eastus.cloudapp.azure.com**
 <p align="left">
   <img src="assets/dns-name-label-marked.jpg" width="700">
 </p>
-___
 
 ###  Login 
 <p align="left">
@@ -90,7 +89,8 @@ ___
 ```bash
     sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
---- <br>
+<br>
+
 ### Get HTTPS certificate (Nginx plugin – easiest)
 ```bash
     sudo certbot --nginx
