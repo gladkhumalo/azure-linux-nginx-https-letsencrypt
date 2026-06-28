@@ -112,7 +112,10 @@ Certbot will:
 
 ### Test HTTPS
 Open browser:
-  https://nginx-web.eastus.cloudapp.azure.com
+  For example:
+  ```
+    https://nginx-web.eastus.cloudapp.azure.com
+  ```
 
 You should see:
 🔒 Secure lock
