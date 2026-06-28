@@ -136,7 +136,7 @@ Valid Let’s Encrypt certificate
 * Certificate lifecycle management
 
 
-### 🎯 Lessons Learned
+### 🎯 The things I've Learned through this
 * Port 80 must remain open for Let's Encrypt validation.
 * DNS must resolve publicly before certificate issuance.
 * Certbot can automatically modify Nginx configuration.
